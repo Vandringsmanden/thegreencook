@@ -1,0 +1,298 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+body {
+  color: #eeeeee;
+  font-size: 16px;
+  font-family: "p22-underground", sans-serif;
+}
+
+h1 {
+  font-size: 57px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-style: normal;
+}
+
+h2 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 42px;
+}
+
+h4 {
+  font-size: 25px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 35px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 600;
+    font-style: normal;
+  }
+  h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+  }
+  h4 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  .btn-community {
+    padding-top: 5px;
+    display: inline-block;
+    background-color: rgb(140, 158, 147);
+    border-radius: 100px;
+    color: #efefef;
+    font-size: 12px;
+  }
+
+}
+
+
+h1,
+h2,
+h3,
+h5,
+h6 {
+  font-family: "p22-underground", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  height: 1100px;
+  background-image: url("../assets/gree_header_4web.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+header {
+  max-height: 900px;
+  background-image: url("../assets/green_header_4websmall.jpg");
+}
+}
+
+
+nav {
+  background-color: #8c9e93;
+  width: 100%;
+  height: 60px;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 10px;
+  margin-bottom: auto;
+}
+
+nav ul {
+  display: flex;
+  gap: 24px;
+  list-style-type: none;
+  align-items: center;
+}
+
+nav ul li:nth-child(1) {
+  margin-right: auto;
+}
+
+nav a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.btn-community {
+  padding: 10px 15px;
+  display: inline-block;
+  background-color: rgb(140, 158, 147);
+  border-radius: 100px;
+  color: #efefef;
+  margin-bottom: auto;
+}
+.btn-community:hover {
+  transition: all 500ms ease-in-out;
+  background-color: #535f58;
+}
+
+.our-mission {
+  min-height: 900px;
+  background-image: url("../assets/outdoorcooking_3.jpg");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .our-mission {
+    max-height: 900px;
+  }
+  }
+
+.pmission {
+  margin-bottom: 20px;
+}
+
+.nav-hover {
+  transition: all 150ms ease-in-out;
+}
+
+.sec1 {
+background-image: url("../assets/bg_2.png");
+background-repeat: no-repeat;
+background-size: auto;
+text-align: center;
+padding-top: 5%;
+}
+
+.sec2 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: auto;
+  padding-top: 5%;
+  text-align: center;
+}
+
+.btn-community1 {
+  padding: 2% 2%;
+  display: inline-block;
+  background-color: rgb(140, 158, 147);
+  border-radius: 100px;
+  color: #efefef;
+  margin-bottom: 10%;
+
+}
+
+.btn-community2 {
+  display: none;
+}
+
+
+@media (max-width: 768px) {
+
+  .sec1 h3 {
+    padding-top: 10%;
+    font-size: 25px;
+  }
+
+  .sec2 h4 {
+    padding-top: 5%;
+    font-size: 15px;
+  }
+  
+  .sec2 {
+    flex-direction: column;
+    background-color: #8C9E93;
+  padding-top: 20%;
+  }
+  
+  .btn-community1 {
+    display: none;
+  }
+
+  .btn-community2 {
+    display: block;
+    padding: 2% 2%;
+    display: inline-block;
+    background-color: rgb(162, 187, 172);
+    border-radius: 100px;
+    color: #efefef;
+    margin-bottom: 10%;
+    text-align: center;
+  }
+}
+
+
+.btn-community1:hover, .btn-community2:hover {
+  transition: all 500ms ease-in-out;
+  background-color: #535f58;
+}
+
+
+
+.meet-our-community {
+  background-color: #eeeeee;
+  color: #212121;
+  padding: 5%;
+}
+
+
+
+.meet-our-member {
+  display: flex;
+  justify-content: center;
+  min-height: 600px;
+  gap: 20px;
+  width: 100%;
+  flex-direction: row-reverse;
+}
+
+@media (max-width: 768px) {
+  .meet-our-member {
+    display: flex;
+    justify-content: center;
+    min-height: 600px;
+    gap: 20px;
+    width: 100%;
+    flex-direction: column;
+  }
+  }
+
+.community_1 {
+  padding-top: 3%;
+}
+
+
+.meet-our-member h3 {
+  font-size: 50px;
+}
+
+@media (max-width: 768px) {
+  .meet-our-member h3 {
+  font-size: 40px;
+}
+}
+
+
+footer {
+  width: 100%;
+  height: 48px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  padding: 15px 5%;
+}
+
+
+footer a {
+  text-align: right;
+  margin: 20px;
+}
+
+@media (max-width: 768px) {
+  footer a {
+  font-size: 10px;
+  margin: 2px;
+}
+}
